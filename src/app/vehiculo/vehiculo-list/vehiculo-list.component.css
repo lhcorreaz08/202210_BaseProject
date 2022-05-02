@@ -1,0 +1,9 @@
+table th {
+  /*...all th attributes like padding etc*/
+  background-color:#073866;
+  color: white;
+  padding: 8px;
+}
+table tr:nth-child(even) {
+  background: white;
+}

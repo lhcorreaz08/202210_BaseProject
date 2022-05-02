@@ -1,27 +1,32 @@
-<p>
+<p style = "font-size: 35px">
 TuSegundazo.com
 </p>
 <hr style = "border: 1px solid gray">
 
-<img src="https://ibb.co/cX7ZPfn">
+<img src="http://drive.google.com/uc?export=view&id=1wxn1a63drnuUtrTaYxMea3Fjah5S0D0_">
 
-<table class="table table-striped table-hover">
+<hr style = "border: 1px solid gray">
+
+<table class="table table-striped table-hover" id="tabla">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">Marca</th>
-      <th scope="col">Linea</th>
-      <th scope="col">Modelo</th>
+      <th scope="id">#</th>
+      <th scope="marca">Marca</th>
+      <th scope="linea">Linea</th>
+      <th scope="modelo">Modelo</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let vehiculo of vehiculos ; let i = index">
-      <th scope="row">{{i+1}}</th>
+      <td scope="row">{{i+1}}</td>
       <td>{{vehiculo.marca}}</td>
       <td>{{vehiculo.linea}}</td>
       <td>{{vehiculo.modelo}}</td>
       <td></td>
     </tr>
-
   </tbody>
 </table>
+<p style="text-align:center">Contact us: +573102105253 - info@tusegundazo.com - @tusegundazo</p>
+
+
+

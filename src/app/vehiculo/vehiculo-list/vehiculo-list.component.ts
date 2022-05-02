@@ -24,4 +24,6 @@ export class VehiculoListComponent implements OnInit {
     this.getVehiculos();
   }
 
+
+
 }

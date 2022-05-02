@@ -7,7 +7,6 @@ export class Vehiculo {
   color: string;
   imagen: string
 
-
   constructor(
     id: number,
     marca: string,
@@ -27,5 +26,7 @@ export class Vehiculo {
     this.imagen = imagen;
 
   }
+
+
 }
 
